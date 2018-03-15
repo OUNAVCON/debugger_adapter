@@ -3,16 +3,16 @@ EESchema-LIBRARY Version 2.3
 #
 # CONN_01X07
 #
-DEF CONN_01X07 P 0 40 Y N 1 F N
-F0 "P" 0 400 50 H V C CNN
+DEF CONN_01X07 J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
 F1 "CONN_01X07" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X07
- Pin_Header_Angled_1X07
- Socket_Strip_Straight_1X07
- Socket_Strip_Angled_1X07
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -350 50 350 0 1 0 N
@@ -35,16 +35,16 @@ ENDDEF
 #
 # CONN_01X08
 #
-DEF CONN_01X08 P 0 40 Y N 1 F N
-F0 "P" 0 450 50 H V C CNN
+DEF CONN_01X08 J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
 F1 "CONN_01X08" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X08
- Pin_Header_Angled_1X08
- Socket_Strip_Straight_1X08
- Socket_Strip_Angled_1X08
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -400 50 400 0 1 0 N
@@ -69,16 +69,17 @@ ENDDEF
 #
 # CONN_02X07
 #
-DEF CONN_02X07 P 0 1 Y N 1 F N
-F0 "P" 0 400 50 H V C CNN
+DEF CONN_02X07 J 0 1 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
 F1 "CONN_02X07" 0 0 50 V V C CNN
-F2 "" 0 -1200 50 H V C CNN
-F3 "" 0 -1200 50 H V C CNN
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_2X07
- Pin_Header_Angled_2X07
- Socket_Strip_Straight_2X07
- Socket_Strip_Angled_2X07
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
 $ENDFPLIST
 DRAW
 S -100 -295 -50 -305 0 1 0 N
@@ -115,16 +116,17 @@ ENDDEF
 #
 # CONN_02X10
 #
-DEF CONN_02X10 P 0 1 Y N 1 F N
-F0 "P" 0 550 50 H V C CNN
+DEF CONN_02X10 J 0 1 Y N 1 F N
+F0 "J" 0 550 50 H V C CNN
 F1 "CONN_02X10" 0 0 50 V V C CNN
-F2 "" 0 -1200 50 H V C CNN
-F3 "" 0 -1200 50 H V C CNN
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_2X10
- Pin_Header_Angled_2X10
- Socket_Strip_Straight_2X10
- Socket_Strip_Angled_2X10
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
 $ENDFPLIST
 DRAW
 S -100 -445 -50 -455 0 1 0 N
@@ -173,11 +175,11 @@ ENDDEF
 #
 # Jumper_NO_Small
 #
-DEF ~Jumper_NO_Small JP 0 30 N N 1 F N
+DEF Jumper_NO_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "Jumper_NO_Small" 10 -60 50 H I C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F1 "Jumper_NO_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -40 0 20 0 1 0 N
 C 40 0 20 0 1 0 N
@@ -191,11 +193,11 @@ ENDDEF
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
