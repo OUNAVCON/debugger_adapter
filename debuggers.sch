@@ -60,7 +60,7 @@ U 1 1 5A8B99F1
 P 2750 3650
 F 0 "P1" H 2750 4050 50  0000 C CNN
 F 1 "TI_JTAG" V 2750 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2750 2450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 2750 2450 50  0001 C CNN
 F 3 "" H 2750 2450 50  0000 C CNN
 	1    2750 3650
 	1    0    0    -1  
@@ -71,7 +71,7 @@ U 1 1 5A8B9A62
 P 4350 3650
 F 0 "P3" H 4350 4050 50  0000 C CNN
 F 1 "TI_jtag" V 4450 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x29_Pitch2.00mm_SMD_Pin1Right" H 4350 3650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 4350 3650 50  0001 C CNN
 F 3 "" H 4350 3650 50  0000 C CNN
 	1    4350 3650
 	1    0    0    -1  
@@ -217,7 +217,7 @@ U 1 1 5A8BA244
 P 2500 4200
 F 0 "R1" V 2580 4200 50  0000 C CNN
 F 1 "4k7" V 2500 4200 50  0000 C CNN
-F 2 "Relays_THT:Relay_SPDT_PotterBrumfield_T9AP5D52_12V30A" V 2430 4200 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2430 4200 50  0001 C CNN
 F 3 "" H 2500 4200 50  0000 C CNN
 	1    2500 4200
 	1    0    0    -1  
@@ -228,7 +228,7 @@ U 1 1 5A8BA271
 P 3000 4200
 F 0 "R2" V 3080 4200 50  0000 C CNN
 F 1 "4k7" V 3000 4200 50  0000 C CNN
-F 2 "Relays_THT:Relay_SPDT_PotterBrumfield_T9AP5D52_12V30A" V 2930 4200 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2930 4200 50  0001 C CNN
 F 3 "" H 3000 4200 50  0000 C CNN
 	1    3000 4200
 	1    0    0    -1  
